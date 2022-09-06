@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    margin: 0px;
+    background: linear-gradient( white,black);
+}
+section h1{
+ text-decoration: underline grey 2px;
+}
+#menu{
+    position: fixed;
+    list-style: none;
+    background-color: rgba(252, 255, 214, 0.651);
+    width: 100%;
+    top: -17px;
+}
+#menu li{
+    float: left;
+    margin: 10px;
+}
+#menu li a{
+    text-decoration: none;
+    color: black;
+}
+#menu li a:hover{
+    text-decoration: underline;
+}
